@@ -24,6 +24,19 @@
   color: white;
 }
 
+
+.fa-circle-exclamation {
+ color: red
+}
+
+.fa-circle-check {
+ color: green
+}
+
+.fa-spinner {
+  color: #FDB927
+}
+
 .App-link {
   color: #61dafb;
 }
