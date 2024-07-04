@@ -1,0 +1,25 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  padding: 0 16px;
+}
+
+.footer__item {
+  list-style: none;
+  text-align: center;
+}
+
+.footer__item i {
+  color: #000;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.footer__item a {
+  font-size: 12px;
+  color: #000;
+  display: block;
+  text-decoration: none;
+}

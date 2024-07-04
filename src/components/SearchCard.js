@@ -17,7 +17,6 @@ const SearchCard = () => {
           <SearchItem  />
         </ul>
       </main>
-      
     </article>
   );
 };

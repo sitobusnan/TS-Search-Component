@@ -2,10 +2,11 @@ import React from 'react';
 import './Search.css'; // Opcional, para estilos
 import SearchField from '../components/SearchField';
 import SearchCard from '../components/SearchCard';
+import Footer from '../components/Footer';
 
 const Search = () => {
   return (
-    <section>
+    <section className="search__wrapper">
       <>
         <header className='search__header'>
           <div className='search__header--wrapper'>
@@ -23,10 +24,9 @@ const Search = () => {
       <main className='search__main'>
         <SearchCard /> 
       </main>
-    <footter>
-
-
-    </footter>
+    <aside>
+        <Footer />
+    </aside>
     </section>
   );
 };

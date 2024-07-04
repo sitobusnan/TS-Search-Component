@@ -1,13 +1,26 @@
+aside {
+  padding: 4px 0;
+  background: #FFF;
+  box-shadow: 0px -4px 8px 0px rgba(21, 41, 53, 0.08);
+}
+
 .search__header {
   background-color: #0055B8;
   display: grid;
-  margin-bottom: 16px; 
   padding: 10px 16px 16px;
-  row-gap: 16px; 
+  row-gap: 16px;
+}
+
+.search__wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr 80px;
+  row-gap: 16px;
 }
 
 .search__main {
   padding: 0 16px;
+  overflow-y: auto;
 }
 
 .search__header--search {
