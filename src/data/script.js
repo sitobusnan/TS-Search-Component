@@ -17,6 +17,7 @@ const iconImages = {
 };
 
 const state = ['paid', 'pending', 'rejected']
+const categories = ['Travel', 'Food', 'Documentation', 'Culture', 'Maintenance', 'Services', 'Other']
 const name = 'src/data/clients.json';
 
 const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
@@ -30,6 +31,7 @@ m.clients.forEach((p, idx) => {
     })
     p.files.forEach(f => {
         f.icon = iconImages[f.file_type]
+        f.categories = getRandom(categories);
     })
 });
 fs.writeFileSync(name, JSON.stringify(m));
