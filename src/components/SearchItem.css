@@ -1,0 +1,27 @@
+.search__item {
+  column-gap: 8px;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  padding: 16px;
+}
+
+.search__item--title {
+  color: #1F292E;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.search__item--content p {
+  margin: 0;
+}
+
+.search__item--subtitle {
+  color: #1F292E;
+  line-height: 20px;
+  font-size: 13px;
+}
+.search__item--info {
+  color: #008FD6;
+  font-size: 16px;
+  line-height: 24px;
+}

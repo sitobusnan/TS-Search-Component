@@ -4,7 +4,7 @@ import './Search.css'; // Opcional, para estilos
 const SearchField = () => {
   return (
     <>
-      <label for="search" className="search">
+      <label for="search__label" className="search">
         <input type="search" id="search"  />
         <button className='search-button' aria-label="buscar">
           <i class="fa-solid fa-magnifying-glass"></i>

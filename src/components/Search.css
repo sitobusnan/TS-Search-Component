@@ -21,6 +21,10 @@
   color: #FFF;
 }
 
+.search-button:hover {
+  cursor: pointer;
+}
+
 .search--icon {
   align-items: center;
   display: flex;
