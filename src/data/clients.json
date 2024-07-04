@@ -1,0 +1,783 @@
+{
+  "clients": [
+    {
+      "name": "Juan Pérez",
+      "sign_up_date": "2023-01-15",
+      "initials": "JP",
+      "avatar": "https://miro.medium.com/v2/resize:fit:1200/1*lbRRHICAZjLkotvrMY7MLQ.png",
+      "documents": [
+        {
+          "creation_date": "2023-02-01",
+          "billing_date": "2023-02-10",
+          "amount_in_euros": 150,
+          "document_name": "001.pdf",
+          "last_opened_date": "2023-02-20",
+          "type": "Invoice"
+        },
+        {
+          "creation_date": "2023-03-05",
+          "billing_date": "2023-03-15",
+          "amount_in_euros": 200,
+          "document_name": "002.pdf",
+          "last_opened_date": "2023-03-25",
+          "type": "Invoice"
+        },
+        {
+          "creation_date": "2023-04-01",
+          "billing_date": "2023-04-10",
+          "amount_in_euros": 250,
+          "document_name": "003.pdf",
+          "last_opened_date": "2023-04-20",
+          "type": "Expense"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "billing_date": "2023-05-10",
+          "amount_in_euros": 300,
+          "document_name": "004.pdf",
+          "last_opened_date": "2023-05-20",
+          "type": "Expense"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "billing_date": "2023-06-10",
+          "amount_in_euros": 350,
+          "document_name": "005.pdf",
+          "last_opened_date": "2023-06-20",
+          "type": "Expense"
+        }
+      ],
+      "files": [
+        {
+          "creation_date": "2023-02-01",
+          "size_kb": 120,
+          "modification_date": "2023-02-05",
+          "file_name": "file1.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-03-01",
+          "size_kb": 350,
+          "modification_date": "2023-03-05",
+          "file_name": "file2.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        },
+        {
+          "creation_date": "2023-04-01",
+          "size_kb": 250,
+          "modification_date": "2023-04-05",
+          "file_name": "file3.doc",
+          "file_type": "DOC",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWjehuFOfxKeIqTN84kbXlDItw2wYd1UtFg&s"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "size_kb": 500,
+          "modification_date": "2023-05-05",
+          "file_name": "file4.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "size_kb": 180,
+          "modification_date": "2023-06-05",
+          "file_name": "file5.xlsx",
+          "file_type": "XLSX",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "size_kb": 300,
+          "modification_date": "2023-07-05",
+          "file_name": "file6.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "size_kb": 400,
+          "modification_date": "2023-08-05",
+          "file_name": "file7.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        }
+      ]
+    },
+    {
+      "name": "María García",
+      "sign_up_date": "2023-02-10",
+      "initials": "MG",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Sg4DhpemTe4pg8Jsj7e_2jYla-ygzmfwEfIjGIoObzHQbDt6GlKfpt8IrJlb1D2u9x4&usqp=CAU",
+      "documents": [
+        {
+          "creation_date": "2023-03-01",
+          "billing_date": "2023-03-10",
+          "amount_in_euros": 180,
+          "document_name": "12345.pdf",
+          "last_opened_date": "2023-03-20",
+          "type": "Invoice",
+          "category": "Utilities"
+        },
+        {
+          "creation_date": "2023-04-05",
+          "billing_date": "2023-04-15",
+          "amount_in_euros": 250,
+          "document_name": "54321.pdf",
+          "last_opened_date": "2023-04-25",
+          "type": "Invoice",
+          "category": "Rent"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "billing_date": "2023-05-10",
+          "amount_in_euros": 300,
+          "document_name": "98765.pdf",
+          "last_opened_date": "2023-05-20",
+          "type": "Expense",
+          "category": "Food"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "billing_date": "2023-06-10",
+          "amount_in_euros": 150,
+          "document_name": "45678.pdf",
+          "last_opened_date": "2023-06-20",
+          "type": "Expense",
+          "category": "Travel"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "billing_date": "2023-07-10",
+          "amount_in_euros": 200,
+          "document_name": "23456.pdf",
+          "last_opened_date": "2023-07-20",
+          "type": "Invoice",
+          "category": "Education"
+        }
+      ],
+      "files": [
+        {
+          "creation_date": "2023-03-01",
+          "size_kb": 120,
+          "modification_date": "2023-03-05",
+          "file_name": "file1.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-04-01",
+          "size_kb": 350,
+          "modification_date": "2023-04-05",
+          "file_name": "file2.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "size_kb": 250,
+          "modification_date": "2023-05-05",
+          "file_name": "file3.doc",
+          "file_type": "DOC",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWjehuFOfxKeIqTN84kbXlDItw2wYd1UtFg&s"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "size_kb": 500,
+          "modification_date": "2023-06-05",
+          "file_name": "file4.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "size_kb": 180,
+          "modification_date": "2023-07-05",
+          "file_name": "file5.xlsx",
+          "file_type": "XLSX",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "size_kb": 300,
+          "modification_date": "2023-08-05",
+          "file_name": "file6.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-09-01",
+          "size_kb": 400,
+          "modification_date": "2023-09-05",
+          "file_name": "file7.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        }
+      ]
+    },
+    {
+      "name": "Carlos Rodríguez",
+      "sign_up_date": "2023-03-15",
+      "initials": "CR",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqQArqbtAdpxeLsGwtlXkTo0aJpzDi7VanHOG5HwfzoLxommfKwFxIUj1lzZQSfXh078&usqp=CAU",
+      "documents": [
+        {
+          "creation_date": "2023-04-01",
+          "billing_date": "2023-04-10",
+          "amount_in_euros": 180,
+          "document_name": "12345.pdf",
+          "last_opened_date": "2023-04-20",
+          "type": "Invoice",
+          "category": "Utilities"
+        },
+        {
+          "creation_date": "2023-05-05",
+          "billing_date": "2023-05-15",
+          "amount_in_euros": 250,
+          "document_name": "54321.pdf",
+          "last_opened_date": "2023-05-25",
+          "type": "Invoice",
+          "category": "Rent"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "billing_date": "2023-06-10",
+          "amount_in_euros": 300,
+          "document_name": "98765.pdf",
+          "last_opened_date": "2023-06-20",
+          "type": "Expense",
+          "category": "Food"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "billing_date": "2023-07-10",
+          "amount_in_euros": 150,
+          "document_name": "45678.pdf",
+          "last_opened_date": "2023-07-20",
+          "type": "Expense",
+          "category": "Travel"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "billing_date": "2023-08-10",
+          "amount_in_euros": 200,
+          "document_name": "23456.pdf",
+          "last_opened_date": "2023-08-20",
+          "type": "Invoice",
+          "category": "Education"
+        }
+      ],
+      "files": [
+        {
+          "creation_date": "2023-04-01",
+          "size_kb": 120,
+          "modification_date": "2023-04-05",
+          "file_name": "file1.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "size_kb": 350,
+          "modification_date": "2023-05-05",
+          "file_name": "file2.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "size_kb": 250,
+          "modification_date": "2023-06-05",
+          "file_name": "file3.doc",
+          "file_type": "DOC",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWjehuFOfxKeIqTN84kbXlDItw2wYd1UtFg&s"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "size_kb": 500,
+          "modification_date": "2023-07-05",
+          "file_name": "file4.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "size_kb": 180,
+          "modification_date": "2023-08-05",
+          "file_name": "file5.xlsx",
+          "file_type": "XLSX",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png"
+        },
+        {
+          "creation_date": "2023-09-01",
+          "size_kb": 300,
+          "modification_date": "2023-09-05",
+          "file_name": "file6.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-10-01",
+          "size_kb": 400,
+          "modification_date": "2023-10-05",
+          "file_name": "file7.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        }
+      ]
+    },
+    {
+      "name": "Elena Navarro",
+      "sign_up_date": "2023-02-20",
+      "initials": "EN",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fjjYfJWcu4XyiNgEz08cpAqme93TePmnKXCscwJRNnMNyr4kS26iI16FctxRhW3J1Fo&usqp=CAU",
+      "documents": [
+        {
+          "creation_date": "2023-03-01",
+          "billing_date": "2023-03-10",
+          "amount_in_euros": 200,
+          "document_name": "12345.pdf",
+          "last_opened_date": "2023-03-20",
+          "type": "Invoice",
+          "category": "Utilities"
+        },
+        {
+          "creation_date": "2023-04-05",
+          "billing_date": "2023-04-15",
+          "amount_in_euros": 300,
+          "document_name": "54321.pdf",
+          "last_opened_date": "2023-04-25",
+          "type": "Invoice",
+          "category": "Rent"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "billing_date": "2023-05-10",
+          "amount_in_euros": 250,
+          "document_name": "98765.pdf",
+          "last_opened_date": "2023-05-20",
+          "type": "Expense",
+          "category": "Food"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "billing_date": "2023-06-10",
+          "amount_in_euros": 150,
+          "document_name": "45678.pdf",
+          "last_opened_date": "2023-06-20",
+          "type": "Expense",
+          "category": "Travel"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "billing_date": "2023-07-10",
+          "amount_in_euros": 180,
+          "document_name": "23456.pdf",
+          "last_opened_date": "2023-07-20",
+          "type": "Invoice",
+          "category": "Education"
+        }
+      ],
+      "files": [
+        {
+          "creation_date": "2023-03-01",
+          "size_kb": 120,
+          "modification_date": "2023-03-05",
+          "file_name": "file1.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-04-01",
+          "size_kb": 350,
+          "modification_date": "2023-04-05",
+          "file_name": "file2.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "size_kb": 250,
+          "modification_date": "2023-05-05",
+          "file_name": "file3.doc",
+          "file_type": "DOC",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWjehuFOfxKeIqTN84kbXlDItw2wYd1UtFg&s"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "size_kb": 500,
+          "modification_date": "2023-06-05",
+          "file_name": "file4.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "size_kb": 180,
+          "modification_date": "2023-07-05",
+          "file_name": "file5.xlsx",
+          "file_type": "XLSX",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "size_kb": 300,
+          "modification_date": "2023-08-05",
+          "file_name": "file6.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-09-01",
+          "size_kb": 400,
+          "modification_date": "2023-09-05",
+          "file_name": "file7.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        }
+      ]
+    },
+    {
+      "name": "Pedro García",
+      "sign_up_date": "2023-03-10",
+      "initials": "PG",
+      "avatar": "https://i.pinimg.com/236x/6d/5e/38/6d5e38d19bf4c0c9554b1e6beab75952.jpg",
+      "documents": [
+        {
+          "creation_date": "2023-04-01",
+          "billing_date": "2023-04-10",
+          "amount_in_euros": 300,
+          "document_name": "67890.pdf",
+          "last_opened_date": "2023-04-20",
+          "type": "Invoice",
+          "category": "Utilities"
+        },
+        {
+          "creation_date": "2023-05-05",
+          "billing_date": "2023-05-15",
+          "amount_in_euros": 250,
+          "document_name": "54321.pdf",
+          "last_opened_date": "2023-05-25",
+          "type": "Invoice",
+          "category": "Rent"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "billing_date": "2023-06-10",
+          "amount_in_euros": 200,
+          "document_name": "45678.pdf",
+          "last_opened_date": "2023-06-20",
+          "type": "Expense",
+          "category": "Food"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "billing_date": "2023-07-10",
+          "amount_in_euros": 150,
+          "document_name": "23456.pdf",
+          "last_opened_date": "2023-07-20",
+          "type": "Expense",
+          "category": "Travel"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "billing_date": "2023-08-10",
+          "amount_in_euros": 180,
+          "document_name": "12345.pdf",
+          "last_opened_date": "2023-08-20",
+          "type": "Invoice",
+          "category": "Education"
+        }
+      ],
+      "files": [
+        {
+          "creation_date": "2023-04-01",
+          "size_kb": 120,
+          "modification_date": "2023-04-05",
+          "file_name": "file1.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "size_kb": 350,
+          "modification_date": "2023-05-05",
+          "file_name": "file2.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "size_kb": 250,
+          "modification_date": "2023-06-05",
+          "file_name": "file3.doc",
+          "file_type": "DOC",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWjehuFOfxKeIqTN84kbXlDItw2wYd1UtFg&s"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "size_kb": 500,
+          "modification_date": "2023-07-05",
+          "file_name": "file4.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "size_kb": 180,
+          "modification_date": "2023-08-05",
+          "file_name": "file5.xlsx",
+          "file_type": "XLSX",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png"
+        },
+        {
+          "creation_date": "2023-09-01",
+          "size_kb": 300,
+          "modification_date": "2023-09-05",
+          "file_name": "file6.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-10-01",
+          "size_kb": 400,
+          "modification_date": "2023-10-05",
+          "file_name": "file7.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        }
+      ]
+    },
+    {
+      "name": "María López",
+      "sign_up_date": "2023-02-20",
+      "initials": "ML",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuw4RvHPQLVBlY9JOK9iPil915zdJDZDbMxMT1xFvWWDYuUWa8YEcV3m_aoDCbYCe9fvU&usqp=CAU",
+      "documents": [
+        {
+          "creation_date": "2023-03-01",
+          "billing_date": "2023-03-10",
+          "amount_in_euros": 200,
+          "document_name": "54321.pdf",
+          "last_opened_date": "2023-03-20",
+          "type": "Invoice",
+          "category": "Utilities"
+        },
+        {
+          "creation_date": "2023-04-05",
+          "billing_date": "2023-04-15",
+          "amount_in_euros": 150,
+          "document_name": "67890.pdf",
+          "last_opened_date": "2023-04-25",
+          "type": "Invoice",
+          "category": "Rent"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "billing_date": "2023-05-10",
+          "amount_in_euros": 100,
+          "document_name": "23456.pdf",
+          "last_opened_date": "2023-05-20",
+          "type": "Expense",
+          "category": "Food"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "billing_date": "2023-06-10",
+          "amount_in_euros": 250,
+          "document_name": "45678.pdf",
+          "last_opened_date": "2023-06-20",
+          "type": "Expense",
+          "category": "Travel"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "billing_date": "2023-07-10",
+          "amount_in_euros": 180,
+          "document_name": "12345.pdf",
+          "last_opened_date": "2023-07-20",
+          "type": "Invoice",
+          "category": "Education"
+        }
+      ],
+      "files": [
+        {
+          "creation_date": "2023-03-01",
+          "size_kb": 120,
+          "modification_date": "2023-03-05",
+          "file_name": "file1.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-04-01",
+          "size_kb": 350,
+          "modification_date": "2023-04-05",
+          "file_name": "file2.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "size_kb": 250,
+          "modification_date": "2023-05-05",
+          "file_name": "file3.doc",
+          "file_type": "DOC",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWjehuFOfxKeIqTN84kbXlDItw2wYd1UtFg&s"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "size_kb": 500,
+          "modification_date": "2023-06-05",
+          "file_name": "file4.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "size_kb": 180,
+          "modification_date": "2023-07-05",
+          "file_name": "file5.xlsx",
+          "file_type": "XLSX",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "size_kb": 300,
+          "modification_date": "2023-08-05",
+          "file_name": "file6.pdf",
+          "file_type": "PDF",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-09-01",
+          "size_kb": 400,
+          "modification_date": "2023-09-05",
+          "file_name": "file7.jpg",
+          "file_type": "JPG",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        }
+      ]
+    },
+    {
+      "name": "Ana García",
+      "sign_up_date": "2023-03-10",
+      "initials": "AG",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5CLGwd5gyZmdWPej3UW0pk5LG6xmmTTI-A6dOmAk6yfh3sQxe2--4X4GZtffUOPi7V4Q&usqp=CAU",
+      "documents": [
+        {
+          "creation_date": "2023-03-15",
+          "billing_date": "2023-03-25",
+          "amount_in_euros": 150,
+          "document_name": "12345.pdf",
+          "last_opened_date": "2023-04-05",
+          "type": "Invoice",
+          "category": "Utilities"
+        },
+        {
+          "creation_date": "2023-04-01",
+          "billing_date": "2023-04-10",
+          "amount_in_euros": 200,
+          "document_name": "67890.pdf",
+          "last_opened_date": "2023-04-20",
+          "type": "Invoice",
+          "category": "Rent"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "billing_date": "2023-05-10",
+          "amount_in_euros": 300,
+          "document_name": "23456.pdf",
+          "last_opened_date": "2023-05-20",
+          "type": "Expense",
+          "category": "Food"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "billing_date": "2023-06-10",
+          "amount_in_euros": 250,
+          "document_name": "45678.pdf",
+          "last_opened_date": "2023-06-20",
+          "type": "Expense",
+          "category": "Travel"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "billing_date": "2023-07-10",
+          "amount_in_euros": 180,
+          "document_name": "13579.pdf",
+          "last_opened_date": "2023-07-20",
+          "type": "Invoice",
+          "category": "Education"
+        }
+      ],
+      "files": [
+        {
+          "creation_date": "2023-03-01",
+          "size_kb": 120,
+          "modification_date": "2023-03-05",
+          "file_name": "file1.pdf",
+          "file_type": "PDF",
+          "category": "Travel",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-04-01",
+          "size_kb": 350,
+          "modification_date": "2023-04-05",
+          "file_name": "file2.jpg",
+          "file_type": "JPG",
+          "category": "Photos",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        },
+        {
+          "creation_date": "2023-05-01",
+          "size_kb": 250,
+          "modification_date": "2023-05-05",
+          "file_name": "file3.doc",
+          "file_type": "DOC",
+          "category": "Documents",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjWjehuFOfxKeIqTN84kbXlDItw2wYd1UtFg&s"
+        },
+        {
+          "creation_date": "2023-06-01",
+          "size_kb": 500,
+          "modification_date": "2023-06-05",
+          "file_name": "file4.pdf",
+          "file_type": "PDF",
+          "category": "Miscellaneous",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-07-01",
+          "size_kb": 180,
+          "modification_date": "2023-07-05",
+          "file_name": "file5.xlsx",
+          "file_type": "XLSX",
+          "category": "Spreadsheets",
+          "icon": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png"
+        },
+        {
+          "creation_date": "2023-08-01",
+          "size_kb": 300,
+          "modification_date": "2023-08-05",
+          "file_name": "file6.pdf",
+          "file_type": "PDF",
+          "category": "Presentations",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2RXryQpl8D8Hde0mGFnRVwtyIxA3kgrRFCw&s"
+        },
+        {
+          "creation_date": "2023-09-01",
+          "size_kb": 400,
+          "modification_date": "2023-09-05",
+          "file_name": "file7.jpg",
+          "file_type": "JPG",
+          "category": "Photos",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s"
+        }
+      ]
+    }
+  ]
+}
