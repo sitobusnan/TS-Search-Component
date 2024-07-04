@@ -2,21 +2,23 @@ import React from 'react';
 import './SearchCard.css'; // Opcional, para estilos
 import SearchItem from './SearchItem'
 
-const SearchCard = () => {
+const SearchCard = ({ type, client }) => {
+
   return (
     <article className='card__wrapper'>
       <header className="card__wrapper--header" for="search">
         <div>
-          <i class="fa-solid fa-clock-rotate-left"></i>
+          <i class={type.iconClass}></i>
         </div>
-        <h2>Last opened</h2>
+        <h2>{type.name}</h2>
         <a href="#">See all</a>
       </header>
       <main>
         <ul class="search__list">
-          <SearchItem  />
+          <SearchItem type={type} client={client} />
         </ul>
       </main>
+
     </article>
   );
 };

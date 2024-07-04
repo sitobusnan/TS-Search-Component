@@ -24,17 +24,16 @@
   color: white;
 }
 
-
 .fa-circle-exclamation {
- color: red
+  color: red;
 }
 
 .fa-circle-check {
- color: green
+  color: green;
 }
 
 .fa-spinner {
-  color: #FDB927
+  color: #fdb927;
 }
 
 .App-link {

@@ -1,10 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
+import clientsData from '../data/clients.json';
 import './Search.css'; // Opcional, para estilos
 import SearchField from '../components/SearchField';
 import SearchCard from '../components/SearchCard';
+import { iconClasses } from '../components/icons/iconClasses';
 import Footer from '../components/Footer';
 
 const Search = () => {
+  const [query, setQuery] = useState('');
+  const [results, setResults] = useState([]);
+
+  const handleSearch = (value) => {
+    setQuery(value);
+    if (value) {
+      const filteredClients = clientsData.clients.filter(client =>
+        client.name.toLowerCase().includes(value.toLowerCase())
+      );
+      setResults(filteredClients);
+    } else {
+      setResults([]);
+    }
+  };
+
+  const cardTypes = {
+    'lastOpened': { name: 'Last opened', iconClass: iconClasses.headerClasses.lastOpened },
+    'clients': { name: 'Clients', iconClass: iconClasses.headerClasses.clients },
+    'lastUpdatedFiles': { name: 'Last updated files', iconClass: iconClasses.headerClasses.lastUpdatedFiles },
+    'invoices': { name: 'Invoices and payments', iconClass: iconClasses.headerClasses.invoicesAndPayments },
+    'lastExpenses': { name: 'Last expenses', iconClass: iconClasses.headerClasses.lastExpenses },
+  };
+
+
   return (
     <section className="search__wrapper">
       <>
@@ -17,12 +43,18 @@ const Search = () => {
             </div>
           </div>
           <div className='search__header--search'>
-            <SearchField />  
+            <SearchField query={query} onSearch={handleSearch} />
           </div>
-      </header>
+        </header>
       </>
       <main className='search__main'>
-        <SearchCard /> 
+        {results.map((client) => (
+          <div key={client.id} className="client-cards">
+            {Object.keys(cardTypes).map((typeKey) => (
+              <SearchCard type={cardTypes[typeKey]} key={typeKey} client={client} />
+            ))}
+          </div>
+        ))}
       </main>
     <aside>
         <Footer />
