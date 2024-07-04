@@ -37,7 +37,7 @@
   color: #FDB927
 }
 
-.fa-clock-rotate-left .fa-user .fa-file .fa-dollar-sign {
+.fa-clock-rotate-left, .fa-user, .fa-file, .fa-dollar-sign {
   color : #008FD6
 }
 
