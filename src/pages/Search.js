@@ -6,7 +6,7 @@ import SearchCard from '../components/SearchCard';
 const Search = () => {
   return (
     <section>
-      <div className='search'>
+      <>
         <header className='search__header'>
           <div className='search__header--wrapper'>
             <img src="public/assets/teamSystemlogo.svg" alt="" />
@@ -19,8 +19,8 @@ const Search = () => {
             <SearchField />  
           </div>
       </header>
-      </div>
-      <main>
+      </>
+      <main className='search__main'>
         <SearchCard /> 
       </main>
     <footter>

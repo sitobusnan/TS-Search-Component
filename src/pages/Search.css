@@ -1,8 +1,13 @@
 .search__header {
   background-color: #0055B8;
-  padding: 10px 16px 16px;
   display: grid;
-  row-gap: 16px;  
+  margin-bottom: 16px; 
+  padding: 10px 16px 16px;
+  row-gap: 16px; 
+}
+
+.search__main {
+  padding: 0 16px;
 }
 
 .search__header--search {
