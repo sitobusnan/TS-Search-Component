@@ -19,7 +19,7 @@ const Search = () => {
             <SearchField />  
           </div>
       </header>
-      </div>s
+      </div>
       <main>
         <SearchCard /> 
       </main>

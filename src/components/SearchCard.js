@@ -14,7 +14,7 @@ const SearchCard = () => {
       </header>
       <main>
         <ul class="search__list">
-          <SearchItem />
+          <SearchItem  />
         </ul>
       </main>
       
