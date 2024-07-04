@@ -17,6 +17,8 @@ const iconImages = {
 };
 const name = './clients.json';
 
+const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
 
 var m = JSON.parse(fs.readFileSync(name).toString());
 m.clients.forEach((p, idx) => {
