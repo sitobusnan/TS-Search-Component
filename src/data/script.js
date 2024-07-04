@@ -15,7 +15,9 @@ const iconImages = {
     "XLSX": "https://cdn-icons-png.flaticon.com/512/9496/9496456.png",
     "JPG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QCkQiZjdezceJytgLx6qN9bWG_8EbbVn0w&s",
 };
-const name = './clients.json';
+
+const state = ['paid', 'pending', 'rejected']
+const name = 'src/data/clients.json';
 
 const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
@@ -23,6 +25,9 @@ const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
 var m = JSON.parse(fs.readFileSync(name).toString());
 m.clients.forEach((p, idx) => {
     p.avatar = avatarImages[idx];
+    p.documents.forEach(d => {
+        d.state = getRandom(state);
+    })
     p.files.forEach(f => {
         f.icon = iconImages[f.file_type]
     })

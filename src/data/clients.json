@@ -12,7 +12,8 @@
           "amount_in_euros": 150,
           "document_name": "001.pdf",
           "last_opened_date": "2023-02-20",
-          "type": "Invoice"
+          "type": "Invoice",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-03-05",
@@ -20,7 +21,8 @@
           "amount_in_euros": 200,
           "document_name": "002.pdf",
           "last_opened_date": "2023-03-25",
-          "type": "Invoice"
+          "type": "Invoice",
+          "state": "paid"
         },
         {
           "creation_date": "2023-04-01",
@@ -28,7 +30,8 @@
           "amount_in_euros": 250,
           "document_name": "003.pdf",
           "last_opened_date": "2023-04-20",
-          "type": "Expense"
+          "type": "Expense",
+          "state": "paid"
         },
         {
           "creation_date": "2023-05-01",
@@ -36,7 +39,8 @@
           "amount_in_euros": 300,
           "document_name": "004.pdf",
           "last_opened_date": "2023-05-20",
-          "type": "Expense"
+          "type": "Expense",
+          "state": "pending"
         },
         {
           "creation_date": "2023-06-01",
@@ -44,7 +48,8 @@
           "amount_in_euros": 350,
           "document_name": "005.pdf",
           "last_opened_date": "2023-06-20",
-          "type": "Expense"
+          "type": "Expense",
+          "state": "paid"
         }
       ],
       "files": [
@@ -119,7 +124,8 @@
           "document_name": "12345.pdf",
           "last_opened_date": "2023-03-20",
           "type": "Invoice",
-          "category": "Utilities"
+          "category": "Utilities",
+          "state": "paid"
         },
         {
           "creation_date": "2023-04-05",
@@ -128,7 +134,8 @@
           "document_name": "54321.pdf",
           "last_opened_date": "2023-04-25",
           "type": "Invoice",
-          "category": "Rent"
+          "category": "Rent",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-05-01",
@@ -137,7 +144,8 @@
           "document_name": "98765.pdf",
           "last_opened_date": "2023-05-20",
           "type": "Expense",
-          "category": "Food"
+          "category": "Food",
+          "state": "paid"
         },
         {
           "creation_date": "2023-06-01",
@@ -146,7 +154,8 @@
           "document_name": "45678.pdf",
           "last_opened_date": "2023-06-20",
           "type": "Expense",
-          "category": "Travel"
+          "category": "Travel",
+          "state": "paid"
         },
         {
           "creation_date": "2023-07-01",
@@ -155,7 +164,8 @@
           "document_name": "23456.pdf",
           "last_opened_date": "2023-07-20",
           "type": "Invoice",
-          "category": "Education"
+          "category": "Education",
+          "state": "pending"
         }
       ],
       "files": [
@@ -230,7 +240,8 @@
           "document_name": "12345.pdf",
           "last_opened_date": "2023-04-20",
           "type": "Invoice",
-          "category": "Utilities"
+          "category": "Utilities",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-05-05",
@@ -239,7 +250,8 @@
           "document_name": "54321.pdf",
           "last_opened_date": "2023-05-25",
           "type": "Invoice",
-          "category": "Rent"
+          "category": "Rent",
+          "state": "paid"
         },
         {
           "creation_date": "2023-06-01",
@@ -248,7 +260,8 @@
           "document_name": "98765.pdf",
           "last_opened_date": "2023-06-20",
           "type": "Expense",
-          "category": "Food"
+          "category": "Food",
+          "state": "pending"
         },
         {
           "creation_date": "2023-07-01",
@@ -257,7 +270,8 @@
           "document_name": "45678.pdf",
           "last_opened_date": "2023-07-20",
           "type": "Expense",
-          "category": "Travel"
+          "category": "Travel",
+          "state": "pending"
         },
         {
           "creation_date": "2023-08-01",
@@ -266,7 +280,8 @@
           "document_name": "23456.pdf",
           "last_opened_date": "2023-08-20",
           "type": "Invoice",
-          "category": "Education"
+          "category": "Education",
+          "state": "rejected"
         }
       ],
       "files": [
@@ -341,7 +356,8 @@
           "document_name": "12345.pdf",
           "last_opened_date": "2023-03-20",
           "type": "Invoice",
-          "category": "Utilities"
+          "category": "Utilities",
+          "state": "paid"
         },
         {
           "creation_date": "2023-04-05",
@@ -350,7 +366,8 @@
           "document_name": "54321.pdf",
           "last_opened_date": "2023-04-25",
           "type": "Invoice",
-          "category": "Rent"
+          "category": "Rent",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-05-01",
@@ -359,7 +376,8 @@
           "document_name": "98765.pdf",
           "last_opened_date": "2023-05-20",
           "type": "Expense",
-          "category": "Food"
+          "category": "Food",
+          "state": "paid"
         },
         {
           "creation_date": "2023-06-01",
@@ -368,7 +386,8 @@
           "document_name": "45678.pdf",
           "last_opened_date": "2023-06-20",
           "type": "Expense",
-          "category": "Travel"
+          "category": "Travel",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-07-01",
@@ -377,7 +396,8 @@
           "document_name": "23456.pdf",
           "last_opened_date": "2023-07-20",
           "type": "Invoice",
-          "category": "Education"
+          "category": "Education",
+          "state": "rejected"
         }
       ],
       "files": [
@@ -452,7 +472,8 @@
           "document_name": "67890.pdf",
           "last_opened_date": "2023-04-20",
           "type": "Invoice",
-          "category": "Utilities"
+          "category": "Utilities",
+          "state": "pending"
         },
         {
           "creation_date": "2023-05-05",
@@ -461,7 +482,8 @@
           "document_name": "54321.pdf",
           "last_opened_date": "2023-05-25",
           "type": "Invoice",
-          "category": "Rent"
+          "category": "Rent",
+          "state": "pending"
         },
         {
           "creation_date": "2023-06-01",
@@ -470,7 +492,8 @@
           "document_name": "45678.pdf",
           "last_opened_date": "2023-06-20",
           "type": "Expense",
-          "category": "Food"
+          "category": "Food",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-07-01",
@@ -479,7 +502,8 @@
           "document_name": "23456.pdf",
           "last_opened_date": "2023-07-20",
           "type": "Expense",
-          "category": "Travel"
+          "category": "Travel",
+          "state": "paid"
         },
         {
           "creation_date": "2023-08-01",
@@ -488,7 +512,8 @@
           "document_name": "12345.pdf",
           "last_opened_date": "2023-08-20",
           "type": "Invoice",
-          "category": "Education"
+          "category": "Education",
+          "state": "paid"
         }
       ],
       "files": [
@@ -563,7 +588,8 @@
           "document_name": "54321.pdf",
           "last_opened_date": "2023-03-20",
           "type": "Invoice",
-          "category": "Utilities"
+          "category": "Utilities",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-04-05",
@@ -572,7 +598,8 @@
           "document_name": "67890.pdf",
           "last_opened_date": "2023-04-25",
           "type": "Invoice",
-          "category": "Rent"
+          "category": "Rent",
+          "state": "pending"
         },
         {
           "creation_date": "2023-05-01",
@@ -581,7 +608,8 @@
           "document_name": "23456.pdf",
           "last_opened_date": "2023-05-20",
           "type": "Expense",
-          "category": "Food"
+          "category": "Food",
+          "state": "paid"
         },
         {
           "creation_date": "2023-06-01",
@@ -590,7 +618,8 @@
           "document_name": "45678.pdf",
           "last_opened_date": "2023-06-20",
           "type": "Expense",
-          "category": "Travel"
+          "category": "Travel",
+          "state": "paid"
         },
         {
           "creation_date": "2023-07-01",
@@ -599,7 +628,8 @@
           "document_name": "12345.pdf",
           "last_opened_date": "2023-07-20",
           "type": "Invoice",
-          "category": "Education"
+          "category": "Education",
+          "state": "pending"
         }
       ],
       "files": [
@@ -674,7 +704,8 @@
           "document_name": "12345.pdf",
           "last_opened_date": "2023-04-05",
           "type": "Invoice",
-          "category": "Utilities"
+          "category": "Utilities",
+          "state": "paid"
         },
         {
           "creation_date": "2023-04-01",
@@ -683,7 +714,8 @@
           "document_name": "67890.pdf",
           "last_opened_date": "2023-04-20",
           "type": "Invoice",
-          "category": "Rent"
+          "category": "Rent",
+          "state": "rejected"
         },
         {
           "creation_date": "2023-05-01",
@@ -692,7 +724,8 @@
           "document_name": "23456.pdf",
           "last_opened_date": "2023-05-20",
           "type": "Expense",
-          "category": "Food"
+          "category": "Food",
+          "state": "paid"
         },
         {
           "creation_date": "2023-06-01",
@@ -701,7 +734,8 @@
           "document_name": "45678.pdf",
           "last_opened_date": "2023-06-20",
           "type": "Expense",
-          "category": "Travel"
+          "category": "Travel",
+          "state": "pending"
         },
         {
           "creation_date": "2023-07-01",
@@ -710,7 +744,8 @@
           "document_name": "13579.pdf",
           "last_opened_date": "2023-07-20",
           "type": "Invoice",
-          "category": "Education"
+          "category": "Education",
+          "state": "pending"
         }
       ],
       "files": [
