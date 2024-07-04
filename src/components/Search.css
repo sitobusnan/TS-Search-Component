@@ -1,0 +1,33 @@
+.search {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  border: 1px solid #C9CDCF;
+}
+
+.search--wrapper {
+  display: grid;
+  grid-template-columns: 1fr 40px ;
+}
+
+.search input {
+  padding: 10px 20px;
+  border: none;
+}
+
+.search-button {
+  background: linear-gradient( #9198e5, #0090D1);
+  border-radius: 2px;
+  border: none;
+  color: #FFF;
+}
+
+.search--icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.search--icon i {
+  color: #FFF;
+  font-size: 20px;
+}
