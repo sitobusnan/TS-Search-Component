@@ -1,4 +1,11 @@
 export const iconClasses = {
+  headerClasses: {
+    lastOpened: 'fa-solid fa-clock-rotate-left',
+    clients: 'fa-solid fa-user',
+    lastUpdatedFiles: 'fa-regular fa-file',
+    invoicesAndPayments: 'fa-solid fa-dollar-sign',
+    lastExpenses: 'fa-solid fa-dollar-sign'
+  },
   stateClasses: {
     paid: "fa-solid fa-circle-check",
     pending: "fa-solid fa-spinner",
